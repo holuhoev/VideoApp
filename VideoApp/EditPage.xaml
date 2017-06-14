@@ -1,0 +1,37 @@
+﻿<Page
+    x:Class="VideoApp.EditPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:VideoApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="White">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition/>
+                <RowDefinition Height="131.782"/>
+                <RowDefinition Height="93.218"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0" Margin="10,10,0,0">
+
+                <StackPanel Height="50" Background="#FF585454" VerticalAlignment="Top" Orientation="Vertical" Margin="-9,-10,0,0" Grid.ColumnSpan="2">
+                    <TextBlock Margin="10,0,0,0" FontSize="30" Foreground="Black"  Height="32">Создание видеролика</TextBlock>
+                     
+                </StackPanel>
+            </Grid>
+            <TextBlock x:Name="statusText" Grid.Row="1" Foreground="Green" FontSize="15" Margin="0,30,0,275"/>
+            <Button x:Name="PickPhotoBtn" BorderBrush="Black" Foreground="Black" Content="Библиотека" Grid.Row="1" HorizontalAlignment="Center"   Click="PickPhotoBtn_Click" Margin="125,284,125,24"   />
+
+
+            <Button x:Name="OptionBtn" BorderBrush="Black" Foreground="Black" Content="Настройки" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center"  Click="OkBtn_Click"  Margin="125,39,125,35.782"  />
+            <Button x:Name="Encode" BorderBrush="Black" Foreground="Black" Content="Создать видео"  Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center"  Click="Encode_Click"   />
+
+        </Grid>
+
+    </Grid>
+</Page>

@@ -1,0 +1,2 @@
+C:\Users\Евгений\Desktop\test\VideoApp\VideoApp\EncodeImages\EncodeImages.WindowsPhone\EncodeImages.WindowsPhone.vcxproj;arm
+C:\Users\Евгений\Desktop\test\VideoApp\VideoApp\VideoApp\VideoApp.csproj;arm

@@ -1,0 +1,1 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Files><file>\EncodeImages.winmd</file><file>\VideoApp.exe</file></Files>

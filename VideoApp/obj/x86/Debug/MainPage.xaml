@@ -1,0 +1,31 @@
+﻿<Page
+    x:Class="VideoApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:VideoApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Page.BottomAppBar>
+        <CommandBar ClosedDisplayMode="Compact" >
+            <AppBarButton x:ConnectionId='1' x:Name="AddBar" Icon="Add"                      Label="Добавить"  />
+        </CommandBar>
+    </Page.BottomAppBar>
+
+    <Grid Background="White" Margin="0,-1.667,0,-0.333">
+        <Grid x:Name="VideoGrid" Margin="0,0,0,328">
+            <Border x:Name="VideoBorder" BorderThickness="1" BorderBrush="Black" Margin="0,0,0,1">
+                <Grid Margin="0.167,0.167,-0.833,-0.5">
+                    <MediaElement x:Name="VideoElement" AutoPlay="False" AreTransportControlsEnabled="True" />
+                </Grid>
+            </Border>
+        </Grid>
+        <Grid x:Name="blockGrid" Margin="0,254,0,289" Background="AliceBlue" >
+            <TextBlock x:Name="nameBlock" Foreground="Black" FontSize="20"/>
+        </Grid>
+         <ListView x:Name="VideoSP"  IsItemClickEnabled="True" SelectionMode="None" HorizontalAlignment="Left"  Height="289" VerticalAlignment="Top" Width="401" Margin="-1,293,0,0"/>
+        <TextBlock x:Name="statusBlock" FontStyle="Oblique" HorizontalAlignment="Left"  Margin="56,360,0,0" TextWrapping="Wrap"  Text="Вы еще не создали ни одного видеоролика, нажмите на кнопку добавить!" FontSize="20" VerticalAlignment="Top" Height="109" Width="308" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" Foreground="#FF718BEE"/>
+    </Grid>
+</Page>
+

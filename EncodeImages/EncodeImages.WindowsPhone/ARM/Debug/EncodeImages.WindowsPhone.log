@@ -1,0 +1,55 @@
+﻿Сборка начата 29.05.2016 18:00:29.
+     1>Проект "C:\Users\Евгений\Desktop\test\VideoApp\VideoApp\EncodeImages\EncodeImages.WindowsPhone\EncodeImages.WindowsPhone.vcxproj" в узле 2 (целевые объекты Build).
+     1>GetInstalledSDKLocations:
+         Идет поиск пакетов SDK, предназначенных для "WindowsPhoneApp, 8.1".
+       ResolveSDKReferences:
+           Идет чтение файла манифеста SDK "C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\SDKManifest.xml".
+           Целевые конфигурация и архитектура "Debug|ARM"
+           Не удается найти атрибут "FrameworkIdentity" "FrameworkIdentity-Debug-ARM" в манифесте SDK. 
+           В манифесте SDK найден атрибут "FrameworkIdentity" "Name = Microsoft.VCLibs.120.00.Phone.Debug, MinVersion = 12.0.30113.0".
+           В манифесте SDK найден атрибут расположения "APPX" "AppX-Debug-x86=.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.12.00.Phone.appx".
+           В манифесте SDK найден атрибут расположения "APPX" "AppX-Debug-ARM=.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.12.00.Phone.appx".
+       ExpandSDKReferences:
+         Идет перечисление ссылки на пакет SDK "Microsoft.VCLibs, Version=12.0" из "C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\".
+         Добавление ссылки "References\CommonConfiguration\neutral\platform.winmd".
+       InitializeBuildStatus:
+         Создание "ARM\Debug\EncodeIm.25e9c73c.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_arm\CL.exe /c /I"C:\Users\Евгений\Desktop\test\VideoApp\VideoApp\EncodeImages\EncodeImages.WindowsPhone\\" /I"Generated Files\\" /IARM\Debug\ /I"C:\Users\Евгений\Desktop\test\VideoApp\VideoApp\EncodeImages\EncodeImages.Shared\\" /Zi /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /Od /Oy- /D _WINRT_DLL /D PSAPI_VERSION=2 /D WINAPI_FAMILY=WINAPI_FAMILY_PHONE_APP /D _UITHREADCTXT_SUPPORT=0 /D _WINDLL /D _UNICODE /D UNICODE /D _DEBUG /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"ARM\Debug\pch.pch" /Fo"ARM\Debug\\" /Fd"ARM\Debug\vc120.pdb" /Gd /TP /FU"C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\References\CommonConfiguration\neutral\platform.winmd" /FU"C:\Program Files (x86)\Windows Phone Kits\8.1\\References\CommonConfiguration\Neutral\Windows.winmd" /FU"C:\Program Files (x86)\Windows Phone Kits\8.1\\References\CommonConfiguration\Neutral\Windows.winmd" /analyze- /errorReport:prompt /bigobj "C:\Users\Евгений\Desktop\test\VideoApp\VideoApp\EncodeImages\EncodeImages.Shared\PictureWriter.cpp"
+         PictureWriter.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_arm\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Евгений\Desktop\test\VideoApp\VideoApp\ARM\Debug\EncodeImages.WindowsPhone\EncodeImages.WindowsPhone.dll" /INCREMENTAL /NOLOGO WindowsPhoneCore.lib RuntimeObject.lib PhoneAppModelHost.lib /NODEFAULTLIB:kernel32.lib /NODEFAULTLIB:ole32.lib /MANIFEST:NO /DEBUG /PDB:"C:\Users\Евгений\Desktop\test\VideoApp\VideoApp\ARM\Debug\EncodeImages.WindowsPhone\EncodeImages.WindowsPhone.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /APPCONTAINER /WINMD /WINMDFILE:"C:\Users\Евгений\Desktop\test\VideoApp\VideoApp\ARM\Debug\EncodeImages.WindowsPhone\EncodeImages.winmd" /DYNAMICBASE /NXCOMPAT /MACHINE:ARM /DLL ARM\Debug\pch.obj
+         ARM\Debug\PictureWriter.obj
+            ╤ючфрхЄё  сшсышюЄхър C:\Users\┼тухэшщ\Desktop\test\VideoApp\VideoApp\ARM\Debug\EncodeImages.WindowsPhone\EncodeImages.WindowsPhone.lib ш юс·хъЄ C:\Users\┼тухэшщ\Desktop\test\VideoApp\VideoApp\ARM\Debug\EncodeImages.WindowsPhone\EncodeImages.WindowsPhone.exp
+         EncodeImages.WindowsPhone.vcxproj -> C:\Users\Евгений\Desktop\test\VideoApp\VideoApp\ARM\Debug\EncodeImages.WindowsPhone\EncodeImages.WindowsPhone.dll
+       ComputeProcessXamlFiles:
+         (Out) ProcessedXamlFiles == 
+       CustomOutputGroupForPackaging:
+         (Out) Project='EncodeImages.WindowsPhone' ProcessedXamlFiles == 
+         (Out) XamlPackagingRootFolder == C:\Users\Евгений\Desktop\test\VideoApp\VideoApp\ARM\Debug\EncodeImages.WindowsPhone\\
+         (Out) ProcessedXamlFilesFullPath == 
+         (Out) Project='EncodeImages.WindowsPhone' CustomOutputGroupForPackagingOutput == 
+       GetPackagingOutputs:
+         EncodeImages.WindowsPhone : EncodeImages.WindowsPhone.ProjectPriFile : C:\Users\Евгений\Desktop\test\VideoApp\VideoApp\ARM\Debug\EncodeImages.WindowsPhone\EncodeImages.pri -> EncodeImages.pri
+         EncodeImages.WindowsPhone : EncodeImages.WindowsPhone.BuiltProjectOutputGroup : C:\Users\Евгений\Desktop\test\VideoApp\VideoApp\ARM\Debug\EncodeImages.WindowsPhone\EncodeImages.WindowsPhone.dll -> EncodeImages.WindowsPhone.dll
+         EncodeImages.WindowsPhone : EncodeImages.WindowsPhone.DebugSymbolsProjectOutputGroup : C:\Users\Евгений\Desktop\test\VideoApp\VideoApp\ARM\Debug\EncodeImages.WindowsPhone\EncodeImages.WindowsPhone.pdb -> EncodeImages.WindowsPhone.pdb
+         EncodeImages.WindowsPhone : EncodeImages.WindowsPhone.CopyWinmdArtifactsOutputGroup : C:\Users\Евгений\Desktop\test\VideoApp\VideoApp\ARM\Debug\EncodeImages.WindowsPhone\EncodeImages.winmd -> EncodeImages.winmd
+         EncodeImages.WindowsPhone : EncodeImages.WindowsPhone.GetResolvedSDKReferences : C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\ -> 
+         EncodeImages.WindowsPhone : EncodeImages.WindowsPhone._GetProjectArchitecture : arm -> 
+       _GenerateProjectPriConfigurationFiles:
+         EncodeImages.WindowsPhone -> ARM\Debug\priconfig.xml
+         EncodeImages.WindowsPhone -> ARM\Debug\layout.resfiles
+         EncodeImages.WindowsPhone -> ARM\Debug\resources.resfiles
+         EncodeImages.WindowsPhone -> ARM\Debug\pri.resfiles
+         EncodeImages.WindowsPhone -> 
+       _GenerateProjectPriFileCore:
+       Целевой объект "_GenerateProjectPriFileCore" пропускается, так как все выходные файлы актуальны по отношению к входным.
+       FinalizeBuildStatus:
+         Файл "ARM\Debug\EncodeIm.25e9c73c.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "ARM\Debug\EncodeIm.25e9c73c.tlog\EncodeImages.WindowsPhone.lastbuildstate".
+     1>Сборка проекта "C:\Users\Евгений\Desktop\test\VideoApp\VideoApp\EncodeImages\EncodeImages.WindowsPhone\EncodeImages.WindowsPhone.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:06.02
